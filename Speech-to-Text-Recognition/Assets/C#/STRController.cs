@@ -18,10 +18,10 @@ public class STRController : MonoBehaviour
     void Start()
     {
         //找尋裝置裡是否有麥克風
-        /*foreach (var device in Microphone.devices)
+        foreach (var device in Microphone.devices)
         {
             Debug.Log("Name: " + device);
-        }*/
+        }
         GirlAnim.Play("f02_idle_00");
          keywords.Add("move", () =>
         {
